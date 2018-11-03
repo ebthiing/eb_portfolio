@@ -1,0 +1,150 @@
+@chaset "utf-8";
+
+#body{background-color: transparent}
+#subTop{background:url(../images/sub1top.jpg) center; background-size: cover;}
+#subCon .con div{width:65%; position: relative; clear: both}
+#subCon .con div img{width:100%;}
+#subCon .con div:nth-child(4){z-index: 10}
+#subCon .con div:nth-child(5){top:-150px; left: 35%; z-index: 5}
+
+#subTop{width:100%; height:700px; overflow:hidden;  text-align: center}
+#subTop h2{margin-top:200px; font-size: 5vw; text-align: center}
+#subTop h2 span{display: block; font-family: 'NanumSquareL';  font-size: 2.5vw; margin: 30px 0 60px 0 }
+#subTop p{font-family: 'NanumSquareL'; text-align: center; padding: 0 100px; line-height: 1.8em }
+
+#subTop .box {
+    position:relative;
+    top:50px;
+    vertical-align: middle;
+    color: #8A866A ;
+    display: inline-block;
+    width:180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 20px;
+    cursor: pointer;
+    border: 2px solid #8A866A;
+    transition:0.5s;
+}
+
+#subTop .box:hover {
+    border: 2px solid rgba(130,57,58,0);
+    color: #DDDCC5;
+}
+
+#subTop .box::before, .box::after {
+    width: 100%;
+    height:100%;
+    z-index: 3;
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+#subTop .foo::before {
+    border-bottom: 3px solid #82393A;
+    border-left: 3px solid #82393A;
+    transform-origin: 0 100%;
+}
+
+#subTop .foo::after {
+    border-top: 3px solid #82393A;
+    border-right: 3px solid #82393A;
+    transform-origin: 100% 0%;
+}
+
+
+#subTop .box:hover::after, #subTop .box:hover::before {
+    transform: scale(1);
+}
+
+
+@-webkit-keyframes scroll-inner {
+    from {margin-top: 15%;}
+    to {margin-top: 50%;}
+}
+@keyframes scroll-inner {
+    from {margin-top: 15%;}
+    to {margin-top: 50%;}
+}
+@-webkit-keyframes scroll-mouse {
+    from {margin-top: 0;}
+    to {margin-top: 15px;}
+}
+@keyframes scroll-mouse {
+    from {margin-top: 0;}
+    to {margin-top: 15px;}
+}
+
+#subTop .down{
+    position:absolute;
+    left:50%;
+    bottom:50px;
+    margin-left: -13px;
+    display:block;
+    height:60px;
+}
+div.mouse{
+    position:relative;
+    margin:0 auto;
+    display:block;
+    width:24px;
+    height:40px;
+    border: solid 1px #DDDCC5;
+    border-radius: 25px;
+    -webkit-animation: scroll-mouse 1.5s; 
+    animation: scroll-mouse 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    //-webkit-animation-timing-function:ease;
+    //animation-timing-function:ease;
+}
+
+div.mouse span.scroll-down{
+    display:block;
+    width:4px;
+    height:4px;
+    background:#DDDCC5;
+    border-radius:50%;
+    margin:15% auto auto auto;
+
+    -webkit-animation: scroll-inner 1.5s; 
+    animation: scroll-inner 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function:ease;
+    animation-timing-function:ease
+
+}
+
+@media screen and (max-height:700px){
+    div.mouse{display: none}
+}
+
+
+#span{ display: block; padding-top: 700px;}
+#subCon{ background: #DDDCC5; color: #333; width:80%; padding: 50px 10%; }
+
+#subCon>a.prev{position:fixed;
+    top:50%; left:-30px;
+    transform: translate3d(50%,0,0) rotate(-90deg); color: #333; opacity: 0}
+#subCon>a.next{position:fixed;
+    top:50%; right:60px;
+    transform: translate3d(50%,0,0) rotate(90deg);  color: #333; opacity: 0}
+
+#subCon .con{overflow: hidden; position: relative}
+#subCon .con dl{float:left; width:23.33%; padding:5%; text-align: center; margin-bottom: 100px}
+#subCon .con dl dt{font-size: 1.3em; font-weight: bold; margin-bottom: 30px}
+
+
+/* too small!! */
+@media screen and (max-width:768px){
+    #wrap{display: none}
+    .size{display: block}
+}

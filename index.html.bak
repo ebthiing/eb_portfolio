@@ -13,10 +13,10 @@
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
 	<link href="assets/css/animate.css" rel="stylesheet">
-
+    
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-
+    
 	<!-- fonts -->
 	 <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -26,7 +26,7 @@
 
 	<!-- script -->
     <script src="assets/js/modernizr.custom.js"></script>
-
+       
 </head>
 <body>
 
@@ -80,8 +80,9 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
+						<li><a href="#experience">Experience</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -107,7 +108,7 @@
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 							디자인이란 소통을 통하여 생각과 행동을 바꾸는 것이라고 생각합니다.<br>
-							특히 제가 주목하는 분야는<em>Interactive Design</em>입니다.<br>이 분야는 서비스를 이용하는 사용자가 시스템과의 상호간 작용을 용이하게 만들어 주는 것을 의미합니다.<br>보다 많은 사용자를 만족시키기 위해 디자인부터 코딩까지 생각하고 설계하는것이 저의 궁극적인 목표입니다
+							특히 제가 주목하는 분야는<em>Interactive Design</em>입니다.<br> 이 분야야말로 서비스를 사용하면서 사용자가 시스템과 상호작용하는 과정을 설계하는것을 의미합니다.<br>저는 그것이야말로 디자인의 궁극적인 목표라고 생각합니다.
 						</div>
 					</div>
 
@@ -186,7 +187,7 @@
 	</section>
 
 	<!-- About end -->
-
+    
     <!-- Portfolio start -->
 
 	<section id="portfolio" class="pfblock">
@@ -206,150 +207,150 @@
 				</div>
 
 			</div><!-- .row -->
-
-
+            
+            
             <div class="row">
-
+                
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+                    
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-1.jpg" alt="img01"/>
                             <figcaption class="link" data-link="http://ibl212.dothome.co.kr/descente/">
                                 <h2>브랜드 <span>사이트</span></h2>
                                 <p>데상트</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-2.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="http://ibl212.dothome.co.kr/descente/mobile/#">
                                 <h2>모바일 <span>사이트</span></h2>
                                 <p>데상트 모바일</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
-
+                
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-3.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="http://tndksdl212.dothome.co.kr/dongkook/">
                                 <h2>기업형 <span>사이트</span></h2>
                                 <p>동국제약</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
-
+                
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-4.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="http://tndksdl212.dothome.co.kr/estar/">
                                 <h2>기업형 <span>사이트</span></h2>
                                 <p>이스타</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
-
+                
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-5.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="http://tndksdl212.dothome.co.kr/sunchang/">
                                 <h2>공공기관 <span>사이트</span></h2>
                                 <p>순창교육지원청</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
                 <!--
                 <div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-6.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="sub6.html">
                                 <h2>반응형 <span>사이트</span></h2>
                                 <p>이스타 반응형</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
 				-->
 				<div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-7.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="sub7.html">
                                 <h2>Design <span>banner</span></h2>
                                 <p>elledanse</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
 
 				<div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-9.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="sub8.html">
                                 <h2>Design <span>leaflet</span></h2>
                                 <p>공연 리플렛</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
 
 				<div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-8.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="sub9.html">
                                 <h2>Design <span>images</span></h2>
                                 <p>　</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
 
 				<div class="col-xs-12 col-sm-4 col-md-4">
-
+            
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
 								<img src="assets/images/item-8.jpg" alt="img01"/>
 							<figcaption  class="link" data-link="sub10.html">
                                 <h2>Design <span>images</span></h2>
                                 <p>　</p>
-                            </figcaption>
+                            </figcaption>			
                         </figure>
                     </div>
-
+                    
                 </div>
-
+                
             </div>
 
 
@@ -360,13 +361,13 @@
 	<!-- Portfolio end -->
 
     <!-- Skills start -->
-
+    
     <section class="pfblock pfblock-gray" id="skills">
-
+		
 			<div class="container">
-
+			
 				<div class="row skills">
-
+					
 					<div class="row">
 
                         <div class="col-sm-6 col-sm-offset-3">
@@ -382,7 +383,7 @@
                         </div>
 
                     </div><!-- .row -->
-
+					
 					<div class="col-sm-6 col-md-3 text-center">
 						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">90</span>
@@ -407,16 +408,99 @@
                         </span>
 						<h3 class="text-center">Java+jQuery</h3>
 					</div>
-
+					
 				</div><!--End row -->
-
+			
 			</div>
-
+		
     </section>
-
+    
     <!-- Skills end -->
 
+	<!-- Experience start -->
 
+	<section id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Experience</h2>
+			<div class="pfblock-line"></div>
+            <h3 class="section-subheading text-muted">check out my experience.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="assets/images/ex2.png" alt="graduate">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="date">2017.09</h4>
+                    <h4 class="subheading">NCS 반응형 웹퍼블리셔 과정 수료</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">웹코딩에 한 발짝 더 다가가다.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="assets/images/ex2.png" alt="graduate">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="date">2015.09</h4>
+                    <h4 class="subheading">NCS 모바일웹UI/UX 디자인 과정 수료</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">웹디자이너의 꿈을 키우다.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="assets/images/ex2.png" alt="graduate">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="date">2015.03</h4>
+                    <h4 class="subheading">편집디자인학과 수료</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">편집디자인툴을 배워 포폴을 기획하였다.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="assets/images/ex1.png" alt="graduate">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="date">2015.02</h4>
+                    <h4 class="subheading">대학교 졸업</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">파티디자인과를 졸업하여 디자이너로서의 꿈을 기획하다.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of Our
+                    <br>Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!-- Experience end -->
 	<!-- CallToAction start -->
 
 	<section class="calltoaction">
@@ -504,7 +588,7 @@
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-pinterest"></i></a></li>
 					</ul>
 
-
+					
                     <p class="copyright">
                         COPYRIGHT © JUNG SUAN ALL RIGHTS RESERVED.
 					</p>
@@ -522,7 +606,7 @@
 	<div class="scroll-up">
 		<a href="#home"><i class="fa fa-angle-up"></i></a>
 	</div>
-
+    
     <!-- Scroll to top end-->
 
 	<!-- Javascript files -->
